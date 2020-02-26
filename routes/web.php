@@ -16,4 +16,5 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/{any}', 'SearchlistController@index')->where('any', '.*');
+Route::get('/{any}', 'SearchlistController@index')
+->where('any', '.*');

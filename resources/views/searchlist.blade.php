@@ -8,7 +8,7 @@
 </head>
 <body><h1>Test de fact cats</h1>
     <div id="app">
-        <example-component></example-component>
+        <searchlist-component></searchlist-component>
     </div>
 
     <script src="{{ mix('js/app.js') }}"></script>

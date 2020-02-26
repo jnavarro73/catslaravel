@@ -1899,10 +1899,756 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FactcatComponent.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/FactcatComponent.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      //factcats:null,
+      factcats: [{
+        "_id": "58e008ad0aac31001185ed0c",
+        "text": "The frequency of a domestic cat's purr is the same at which muscles and bones repair themselves.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 8,
+        "userUpvoted": null
+      }, {
+        "_id": "5b199196ce456e001424256a",
+        "text": "Cats can distinguish different flavors in water.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 6,
+        "userUpvoted": null
+      }, {
+        "_id": "5b1b411d841d9700146158d9",
+        "text": "The Egyptian Mau’s name is derived from the Middle Egyptian word mjw, which means cat. But contrary to its name, it’s unclear whether the modern Egyptian Mau actually originated in Egypt.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 5,
+        "userUpvoted": null
+      }, {
+        "_id": "5b4912c60508220014ccfe99",
+        "text": "Cats aren’t the only animals that purr — squirrels, lemurs, elephants, and even gorillas purr too.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 5,
+        "userUpvoted": null
+      }, {
+        "_id": "5b4911940508220014ccfe94",
+        "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 5,
+        "userUpvoted": null
+      }, {
+        "_id": "59a60b8e6acf530020f3586e",
+        "text": "Cat owners are 17% more likely to have a graduate degree than non cat owners.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 5,
+        "userUpvoted": null
+      }, {
+        "_id": "599f89639a11040c4a163440",
+        "text": "Here is a video of some cats in zero gravity. youtu.be/O9XtK6R1QAk",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 5,
+        "userUpvoted": null
+      },, {
+        "_id": "59cd7a97c828120020f7d3a1",
+        "text": "Since cats treat us like cats and depend on us for things like food, water, and opening the door to let them out, they do recognize, that we are in some way in charge — the “big cat” in the shared territory. As territorial animals, our cats are constantly wondering why we’re not doing other cat things that the big cat would normally do in their territory. In fact, the “let me in, let me out, let me in” phenomenon is a good example. The bigger cat ostensibly rules the territory and therefore should be the one patrolling and marking it with pee so other cats stay away. But since humans don’t do this, indoor-outdoor cats reluctantly take on the role themselves. The apparent neuroticism of cats wanting to go outside every five minutes only to be let right back in is funny to us because it seems so silly and unnecessary. But to the cats, it’s very necessary (and frustrating) to cover for their dumb pals.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58cafac6ffae36001108d586",
+        "text": "Cats have fur",
+        "type": "cat",
+        "user": {
+          "_id": "58c86fe52341fc0011d7b151",
+          "name": {
+            "first": "Alex",
+            "last": "Simon"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e007cc0aac31001185ecf5",
+        "text": "Cats are the most popular pet in the United States: There are 88 million pet cats and 74 million dogs.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e008510aac31001185ecfe",
+        "text": "In tigers and tabbies, the middle of the tongue is covered in backward-pointing spines, used for breaking off and gripping meat.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e008c50aac31001185ed0e",
+        "text": "The world's richest cat is worth $13 million after his human passed away and left her fortune to him.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e008630aac31001185ed01",
+        "text": "When cats grimace, they are usually \"taste-scenting.\" They have an extra organ that, with some breathing control, allows the cats to taste-sense the air.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e008a30aac31001185ed0b",
+        "text": "A cat's purr may be a form of self-healing, as it can be a sign of nervousness as well as contentment.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e008d00aac31001185ed0f",
+        "text": "Your cat recognizes your voice but just acts too cool to care (probably because they are).",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e00a850aac31001185ed1a",
+        "text": "Cats have a longer-term memory than dogs, especially when they learn by actually doing rather than simply seeing.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e00b3a0aac31001185ed20",
+        "text": "Polydactyl cats are also referred to as \"Hemingway cats\" because the author was so fond of them.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e00b5f0aac31001185ed24",
+        "text": "When asked if her husband had any hobbies, Mary Todd Lincoln is said to have replied \"cats.\"",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e00bdb0aac31001185edfd",
+        "text": "Cats can change their meow to manipulate a human. They often imitate a human baby when they need food, for example.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e00b820aac31001185edf7",
+        "text": "One legend claims that cats were created when a lion on Noah's Ark sneezed and two kittens came out.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "591d9bce227c1a0020d26827",
+        "text": "In Korea and Japan, there is a Cat Cafe where you can go to drink coffee and hang out with cats for hours.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e00ba00aac31001185edfa",
+        "text": "When cats leave their poop uncovered, it is a sign of aggression to let you know they don't fear you.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "591d9bab227c1a0020d26825",
+        "text": "Owning a cat can reduce the risk of heart attacks and strokes by more than a third, researchers found.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5a038dae8e3dbc001f719792",
+        "text": "Cucumbers look enough like a snake to cause a cat's instinctive fear of snakes to kick in, causing it to panic and flee.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5a4bfbbab0810f0021748b91",
+        "text": "Lil' Bunny Sue Roux is a cat who was born with no front legs, and walks upright like a kangaroo. https://www.instagram.com/lilbunnysueroux",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5a4d766c6ef087002174c288",
+        "text": "Some Siamese cats appear cross-eyed because the nerves from the left side of the brain go to mostly the right eye and the nerves from the right side of the brain go mostly to the left eye. This causes some double vision, which the cat tries to correct by “crossing” its eyes.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e008780aac31001185ed05",
+        "text": "Owning a cat can reduce the risk of stroke and heart attack by a third.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5b1b3feb841d9700146158cf",
+        "text": "In Islam, cats are revered for their cleanliness. Muhammad is reported to have said that \"a love of cats is an aspect of faith\".",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5b1b4065841d9700146158d4",
+        "text": "A cat named Emmy lived aboard the RMS Empress of Ireland and she never missed a voyage. On May 28,1914, however, she refused to board. The ship left without her and then sank the following day.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5b1b408a841d9700146158d5",
+        "text": "Domestic cats will try not to drink from a water bowl that is next to their food. This is because in the wild, water next to their kill could be contaminated.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5b3d8e4960d3890713ca39a8",
+        "text": "A Chinese cat named Baidianr (meaning \"white spot\") had a unique ability to choose World Cup winners. He predicted the winner of the soccer competition 6 years in a row, before he died on June 2, 2018, just before the event ended.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5b4909af0508220014ccfe8a",
+        "text": "Cats have a layer called the tapetum lucidum just behind their retina which reflects light inside the eye, helping it capture more light. This reflected light is the glow you see when taking a photo of a cat with the flash on.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e009390aac31001185ed10",
+        "text": "Most cats are lactose intolerant, and milk can cause painful stomach cramps and diarrhea. It's best to forego the milk and just give your cat the standard: clean, cool drinking water.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5c6a105dc2d7a200140f69a0",
+        "text": "When cats run, their backs contract and extend to give them maximum stride. Their shoulder blades are not attached with bone, but with muscle, and this gives a cat even greater extension and speed.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5b1b40cc841d9700146158d7",
+        "text": "In most US states, declawing cats is legal but in the European Union it is not.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "59d297b7c6671e0020957eb9",
+        "text": "Kittens sleep so much because the growth hormone is only released when they sleep.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5a36ec5fae877e0021ed79f5",
+        "text": "It has been estimated that a cat yawns on the average of 109,500 times in his life.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e00b8b0aac31001185edf8",
+        "text": "A cat can jump up to six times its length.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e00c080aac31001185ee01",
+        "text": "Cats only sweat through their foot pads.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5b4911e60508220014ccfe95",
+        "text": "A female cat is called a “molly” or a “queen”.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "596e4989b863f300203102f4",
+        "text": "Black cats are less likely to be adopted because of their \"appearance\".",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "59a60bae6acf530020f35875",
+        "text": "Cats were mythic symbols of divinity in ancient Egypt.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5a038d5a8e3dbc001f719791",
+        "text": "Cats have 38 chromosomes in each zygote cell.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "5a4d76516ef087002174c287",
+        "text": "If they have ample water, cats can tolerate temperatures up to 133 °F.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "59664b1f474ba80020ef8592",
+        "text": "Your cat's instincts tell her that a paperweight or knickknack could turn out to be a mouse. Her poking paw would send it scurrying, giving her a good game. This is probably why cats always seem to be knocking the glasses off your counter tops!",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 1,
+        "userUpvoted": null
+      }, {
+        "_id": "5a026058134ec2001f032f92",
+        "text": "For a cat at rest, the average heart rate usually is between 150 and 180 bpm, more than twice that of a human, which averages 70 bpm.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 1,
+        "userUpvoted": null
+      }, {
+        "_id": "5a026092134ec2001f032f95",
+        "text": "Compared to other felines, domestic cats have narrowly spaced canine teeth, adapted to their preferred prey of small rodents.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 1,
+        "userUpvoted": null
+      }, {
+        "_id": "5a0260d1134ec2001f032f98",
+        "text": "Cats, like dogs, are digitigrades. They walk directly on their toes, with the bones of their feet making up the lower part of the visible leg.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 1,
+        "userUpvoted": null
+      }, {
+        "_id": "5a038c178e3dbc001f71978e",
+        "text": "A cat's kidneys are so efficient, it can survive on a diet consisting only of meat, with no additional water, and can even rehydrate by drinking seawater.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 1,
+        "userUpvoted": null
+      }, {
+        "_id": "5a038c628e3dbc001f71978f",
+        "text": "Most breeds of cat have a noted fondness for settling in high places, or perching. In the wild, a higher place may serve as a concealed site from which to hunt.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 1,
+        "userUpvoted": null
+      }, {
+        "_id": "5a038cdf8e3dbc001f719790",
+        "text": "The ability of a cat to reflexively twist its body and balance itself during a fall is known as the \"cat righting reflex\".",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 1,
+        "userUpvoted": null
+      }, {
+        "_id": "5a038e188e3dbc001f719793",
+        "text": "The cat's tongue has backwards-facing spines about 500 μm long, which are called papillae. These contain keratin which makes them rigid so the papillae act like a hairbrush.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 1,
+        "userUpvoted": null
+      }],
+      factcat: {
+        id: '',
+        text: '',
+        user: null,
+        upvotes: '',
+        userUpvoted: true
+      }
+    };
+  },
+  mounted: function mounted() {
+    this.getfacts();
+  },
+  methods: {
+    getfacts: function getfacts() {
+      // axios.defaults.headers.common['Access-Control-Allow-Origin']='*';  
+      axios.get('https://cat-fact.herokuapp.com/facts', this.data, {
+        // crossdomain: true 
+        headers: {
+          'Access-Control-Allow-Origin': '*'
+        }
+      }).then(function (response) {
+        console.log('response'); //  this.catfacts = response.data;
+      })["catch"](function (error) {
+        console.log('error');
+        console.log(error);
+      });
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SearchlistComponent.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SearchlistComponent.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1937,18 +2683,270 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      palabra: ''
+      palabra: '',
+      item: {
+        _id: '',
+        text: '',
+        user: null,
+        upvotes: '',
+        userUpvoted: true
+      },
+      pagination: {
+        total: 10,
+        current_page: 1,
+        last_page: 4,
+        from: 1,
+        to: 3
+      },
+      factcats: [{
+        "_id": "58e008ad0aac31001185ed0c",
+        "text": "The frequency of a domestic cat's purr is the same at which muscles and bones repair themselves.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 8,
+        "userUpvoted": null
+      }, {
+        "_id": "5b199196ce456e001424256a",
+        "text": "Cats can distinguish different flavors in water.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 6,
+        "userUpvoted": null
+      }, {
+        "_id": "5b1b411d841d9700146158d9",
+        "text": "The Egyptian Mau’s name is derived from the Middle Egyptian word mjw, which means cat. But contrary to its name, it’s unclear whether the modern Egyptian Mau actually originated in Egypt.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 5,
+        "userUpvoted": null
+      }, {
+        "_id": "5b4912c60508220014ccfe99",
+        "text": "Cats aren’t the only animals that purr — squirrels, lemurs, elephants, and even gorillas purr too.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 5,
+        "userUpvoted": null
+      }, {
+        "_id": "5b4911940508220014ccfe94",
+        "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 5,
+        "userUpvoted": null
+      }, {
+        "_id": "59a60b8e6acf530020f3586e",
+        "text": "Cat owners are 17% more likely to have a graduate degree than non cat owners.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 5,
+        "userUpvoted": null
+      }, {
+        "_id": "599f89639a11040c4a163440",
+        "text": "Here is a video of some cats in zero gravity. youtu.be/O9XtK6R1QAk",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 5,
+        "userUpvoted": null
+      }, {
+        "_id": "59cd7a97c828120020f7d3a1",
+        "text": "Since cats treat us like cats and depend on us for things like food, water, and opening the door to let them out, they do recognize, that we are in some way in charge — the “big cat” in the shared territory. As territorial animals, our cats are constantly wondering why we’re not doing other cat things that the big cat would normally do in their territory. In fact, the “let me in, let me out, let me in” phenomenon is a good example. The bigger cat ostensibly rules the territory and therefore should be the one patrolling and marking it with pee so other cats stay away. But since humans don’t do this, indoor-outdoor cats reluctantly take on the role themselves. The apparent neuroticism of cats wanting to go outside every five minutes only to be let right back in is funny to us because it seems so silly and unnecessary. But to the cats, it’s very necessary (and frustrating) to cover for their dumb pals.",
+        "type": "cat",
+        "user": {
+          "_id": "5a9ac18c7478810ea6c06381",
+          "name": {
+            "first": "Alex",
+            "last": "Wohlbruck"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58cafac6ffae36001108d586",
+        "text": "Cats have fur",
+        "type": "cat",
+        "user": {
+          "_id": "58c86fe52341fc0011d7b151",
+          "name": {
+            "first": "Alex",
+            "last": "Simon"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }, {
+        "_id": "58e007cc0aac31001185ecf5",
+        "text": "Cats are the most popular pet in the United States: There are 88 million pet cats and 74 million dogs.",
+        "type": "cat",
+        "user": {
+          "_id": "58e007480aac31001185ecef",
+          "name": {
+            "first": "Kasimir",
+            "last": "Schulz"
+          }
+        },
+        "upvotes": 2,
+        "userUpvoted": null
+      }]
     };
   },
   mounted: function mounted() {
-    console.log('Component mounted.');
+    this.getfacts();
   },
   methods: {
     filtrar: function filtrar() {
       alert(this.palabra);
+    },
+    getfacts: function getfacts() {
+      // axios.defaults.headers.common['Access-Control-Allow-Origin']='*'; 
+      // la api no tiene montado sistema de paginado para  
+      axios.get('https://cat-fact.herokuapp.com/facts/random?animal_type=cat&amount=50', this.data, {
+        // crossdomain: true 
+        headers: {
+          'Access-Control-Allow-Origin': '*'
+        }
+      }).then(function (response) {
+        console.log('response'); //  this.catfacts = response.data;
+      })["catch"](function (error) {
+        console.log('error');
+        console.log(error);
+      });
+    }
+  },
+  computed: {
+    //Filter
+    searchFacts: function searchFacts() {
+      var _this = this;
+
+      return this.factcats.filter(function (item) {
+        return item.text.includes(_this.palabra);
+      });
+    },
+    //Pagination functions
+    isActived: function isActived() {
+      return this.pagination.current_page;
+    },
+    pagesNumber: function pagesNumber() {
+      if (!this.pagination.to) {
+        return [];
+      }
+
+      var from = this.pagination.current_page - this.offset;
+
+      if (from < 1) {
+        from = 1;
+      }
+
+      var to = from + 2 * this.offset;
+
+      if (to >= this.pagination_last_page) {
+        to = this.pagination_last_page;
+      }
+
+      var pagesArray = [];
+
+      while (from <= to) {
+        pagesArray.push(from);
+        from++;
+      }
+
+      return pagesArray;
+    },
+    changePage: function changePage() {
+      this.pagination.current_page = page;
+      this.getfactsPortion(page);
+    },
+    getfactsPortion: function getfactsPortion() {
+      return this.factcats.slice(page * 5, page * 5 + 4);
     }
   }
 });
@@ -19539,10 +20537,69 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FactcatComponent.vue?vue&type=template&id=3fe3031e&":
 /*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/FactcatComponent.vue?vue&type=template&id=3fe3031e& ***!
   \*******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "panel panel-default" }, [
+    _c("table", { staticClass: "table table-borderer" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("tbody", [
+        _c(
+          "table",
+          _vm._l(_vm.factcats, function(factcat) {
+            return _c("tr", { key: factcat.id }, [
+              _c("td", [_vm._v(_vm._s(factcat.id))]),
+              _vm._v(" "),
+              _c("td", [_vm._v(_vm._s(factcat.text))]),
+              _vm._v(" "),
+              _c("td", [_vm._v(_vm._s(factcat.upvotes))])
+            ])
+          }),
+          0
+        )
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c("th", [_vm._v("ID")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("text")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("upvotes")])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SearchlistComponent.vue?vue&type=template&id=34f77888&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SearchlistComponent.vue?vue&type=template&id=34f77888& ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19558,10 +20615,6 @@ var render = function() {
     _c("div", { staticClass: "row justify-content-center" }, [
       _c("div", { staticClass: "col-md-8" }, [
         _c("div", { staticClass: "card card-default" }, [
-          _c("div", { staticClass: "card-header" }, [
-            _vm._v("Searchlist Component")
-          ]),
-          _vm._v(" "),
           _c("div", { staticClass: "card-body" }, [
             _c(
               "form",
@@ -19575,55 +20628,146 @@ var render = function() {
                 }
               },
               [
-                _c(
-                  "div",
-                  { staticClass: "form-group" },
-                  [
-                    _c("lavel", { attrs: { for: "busqueda" } }, [
-                      _vm._v("Filtrar por texto:")
-                    ]),
-                    _vm._v(" "),
-                    _c("input", {
-                      directives: [
-                        {
-                          name: "model",
-                          rawName: "v-model",
-                          value: _vm.palabra,
-                          expression: "palabra"
-                        }
-                      ],
-                      staticClass: "form-control",
-                      attrs: { type: "text", name: "filtro" },
-                      domProps: { value: _vm.palabra },
-                      on: {
-                        input: function($event) {
-                          if ($event.target.composing) {
-                            return
-                          }
-                          _vm.palabra = $event.target.value
-                        }
+                _c("div", { staticClass: "form-group" }, [
+                  _c("p", [_vm._v("Filtrar por texto:")]),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.palabra,
+                        expression: "palabra"
                       }
-                    })
-                  ],
-                  1
-                ),
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", name: "filtro" },
+                    domProps: { value: _vm.palabra },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.palabra = $event.target.value
+                      }
+                    }
+                  })
+                ]),
                 _vm._v(" "),
                 _c(
                   "button",
-                  { staticClass: "btn btn-primary", attrs: { type: "submit" } },
+                  {
+                    staticClass: "btn btn-primary",
+                    attrs: { type: "submit" },
+                    on: { click: _vm.getfacts }
+                  },
                   [_vm._v("Filtrar")]
                 )
               ]
             ),
             _vm._v(" "),
-            _c("div", { staticClass: "listado" })
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("table", { staticClass: "table table-borderer" }, [
+                _vm._m(0),
+                _vm._v(" "),
+                _c("tbody", [
+                  _c(
+                    "table",
+                    _vm._l(_vm.searchFacts, function(item) {
+                      return _c("tr", { key: item._id }, [
+                        _c("td", [_vm._v(_vm._s(item._id))]),
+                        _vm._v(" "),
+                        _c("td", [_vm._v(_vm._s(item.text))]),
+                        _vm._v(" "),
+                        _c("td", [_vm._v(_vm._s(item.upvotes))])
+                      ])
+                    }),
+                    0
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("nav", [
+                _c(
+                  "ul",
+                  { staticClass: "pagination" },
+                  [
+                    _vm.pagination.current_page > 1
+                      ? _c("li", [_vm._m(1)])
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm._l(_vm.pagesNumber, function(page) {
+                      return _c(
+                        "li",
+                        { class: [page == _vm.isActived ? "active" : ""] },
+                        [
+                          _c("a", { attrs: { href: "" } }, [
+                            _c("span", [_vm._v(" " + _vm._s(page) + " ")])
+                          ])
+                        ]
+                      )
+                    }),
+                    _vm._v(" "),
+                    _vm.pagination.current_page < _vm.pagination.last_page
+                      ? _c("li", [_vm._m(2)])
+                      : _vm._e()
+                  ],
+                  2
+                )
+              ])
+            ])
           ])
         ])
       ])
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c("th", [_vm._v("ID")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Fact")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("upvotes")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        attrs: {
+          href: "#",
+          "click.prevent": "changePage(pagination.current_page -1)"
+        }
+      },
+      [_c("span", [_vm._v("Atras")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        attrs: {
+          href: "#",
+          "click.prevent": "changePage(pagination.current_page +1)"
+        }
+      },
+      [_c("span", [_vm._v("Siguiente")])]
+    )
+  }
+]
 render._withStripped = true
 
 
@@ -31797,7 +32941,10 @@ module.exports = function(module) {
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
-Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+window.axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
+Vue.component('searchlist-component', __webpack_require__(/*! ./components/SearchlistComponent.vue */ "./resources/js/components/SearchlistComponent.vue")["default"]);
+Vue.component('factcat-component', __webpack_require__(/*! ./components/FactcatComponent.vue */ "./resources/js/components/FactcatComponent.vue")["default"]);
 var app = new Vue({
   el: '#app'
 });
@@ -31836,17 +32983,17 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/ExampleComponent.vue":
+/***/ "./resources/js/components/FactcatComponent.vue":
 /*!******************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue ***!
+  !*** ./resources/js/components/FactcatComponent.vue ***!
   \******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
-/* harmony import */ var _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FactcatComponent_vue_vue_type_template_id_3fe3031e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FactcatComponent.vue?vue&type=template&id=3fe3031e& */ "./resources/js/components/FactcatComponent.vue?vue&type=template&id=3fe3031e&");
+/* harmony import */ var _FactcatComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FactcatComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/FactcatComponent.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -31856,9 +33003,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FactcatComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FactcatComponent_vue_vue_type_template_id_3fe3031e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FactcatComponent_vue_vue_type_template_id_3fe3031e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -31868,38 +33015,107 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/components/ExampleComponent.vue"
+component.options.__file = "resources/js/components/FactcatComponent.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/components/FactcatComponent.vue?vue&type=script&lang=js&":
 /*!*******************************************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/components/FactcatComponent.vue?vue&type=script&lang=js& ***!
   \*******************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ExampleComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FactcatComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./FactcatComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FactcatComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FactcatComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
+/***/ "./resources/js/components/FactcatComponent.vue?vue&type=template&id=3fe3031e&":
 /*!*************************************************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
+  !*** ./resources/js/components/FactcatComponent.vue?vue&type=template&id=3fe3031e& ***!
   \*************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FactcatComponent_vue_vue_type_template_id_3fe3031e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./FactcatComponent.vue?vue&type=template&id=3fe3031e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FactcatComponent.vue?vue&type=template&id=3fe3031e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FactcatComponent_vue_vue_type_template_id_3fe3031e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FactcatComponent_vue_vue_type_template_id_3fe3031e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/SearchlistComponent.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/SearchlistComponent.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SearchlistComponent_vue_vue_type_template_id_34f77888___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SearchlistComponent.vue?vue&type=template&id=34f77888& */ "./resources/js/components/SearchlistComponent.vue?vue&type=template&id=34f77888&");
+/* harmony import */ var _SearchlistComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SearchlistComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/SearchlistComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _SearchlistComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SearchlistComponent_vue_vue_type_template_id_34f77888___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SearchlistComponent_vue_vue_type_template_id_34f77888___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/SearchlistComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/SearchlistComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/SearchlistComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SearchlistComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./SearchlistComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SearchlistComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SearchlistComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/SearchlistComponent.vue?vue&type=template&id=34f77888&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/SearchlistComponent.vue?vue&type=template&id=34f77888& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SearchlistComponent_vue_vue_type_template_id_34f77888___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./SearchlistComponent.vue?vue&type=template&id=34f77888& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SearchlistComponent.vue?vue&type=template&id=34f77888&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SearchlistComponent_vue_vue_type_template_id_34f77888___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SearchlistComponent_vue_vue_type_template_id_34f77888___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
