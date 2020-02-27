@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vue SPA Demo</title>
 </head>
-<body><h1>Test de fact cats</h1>
+<body >
+	
     <div id="app">
         <searchlist-component></searchlist-component>
     </div>
