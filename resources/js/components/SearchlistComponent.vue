@@ -14,7 +14,7 @@
                             <p>Filtrar por texto:</p>
                             <input type="text" class="form-control" name="filtro" v-model="palabra">
                         </div>
-                        <button type="submit" class="btn btn-primary" v-on:click="getfacts">Filtrar</button>   
+                     
                     </form>
                 </div>
             </div>

@@ -60711,17 +60711,7 @@ var render = function() {
                     }
                   }
                 })
-              ]),
-              _vm._v(" "),
-              _c(
-                "button",
-                {
-                  staticClass: "btn btn-primary",
-                  attrs: { type: "submit" },
-                  on: { click: _vm.getfacts }
-                },
-                [_vm._v("Filtrar")]
-              )
+              ])
             ]
           )
         ])
